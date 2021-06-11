@@ -24,6 +24,7 @@ var server = http.createServer(function(request, response){
     response.write(`
       <link rel="stylesheet" href="./style.css">
       <h1>你好</h1>
+      h1{color: red;}
     `);
     response.end();
   } else if (path === "/style.css") {
